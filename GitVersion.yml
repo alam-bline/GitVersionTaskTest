@@ -1,12 +1,12 @@
 assembly-versioning-scheme: MajorMinorPatchTag
-mode: ContinuousDelivery
+mode: ContinuousDeployment
 next-version: 2.2.2
 major-version-bump-message: '\+semver:\s?(breaking|major)'
 minor-version-bump-message: '\+semver:\s?(video|minor)'
 patch-version-bump-message: '\+semver:\s?(fix|patch)'
 branches:
   master:
-    mode: ContinuousDelivery
+    mode: ContinuousDeployment
     tag: beta
     prevent-increment-of-merged-branch-version: false
 ignore:
