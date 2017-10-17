@@ -3,14 +3,11 @@ mode: ContinuousDelivery
 next-version: 1.2.3
 tag: beta
 branches:
-  (pull|pull\-requests|pr)[/-]:
-    mode: ContinuousDelivery
-    tag: dev
   master:
     regex: master
     mode: ContinuousDelivery
-    increment: patch
-    tag: beta
+    increment: Patch
+    tag: 'beta'
     is-release-branch: true
 ignore:
   sha: []
