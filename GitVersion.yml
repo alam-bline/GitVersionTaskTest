@@ -1,6 +1,5 @@
 mode: ContinuousDeployment
 next-version: 2.2.2
-increment: patch
 branches:
   master:
     mode: ContinuousDeployment
