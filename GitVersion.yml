@@ -5,5 +5,6 @@ branches:
     mode: ContinuousDeployment
     tag: beta
     increment: Patch
+    prevent-increment-of-merged-branch-version: false
 ignore:
   sha: []
