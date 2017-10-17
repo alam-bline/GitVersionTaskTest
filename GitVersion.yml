@@ -4,6 +4,6 @@ branches:
   master:
     mode: ContinuousDeployment
     tag: beta
-    increment: patch
+    increment: Patch
 ignore:
   sha: []
