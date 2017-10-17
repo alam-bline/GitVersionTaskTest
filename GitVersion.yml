@@ -1,0 +1,9 @@
+mode: ContinuousDeployment
+next-version: 2.2.2
+continuous-delivery-fallback-tag: dev
+branches:
+  master:
+    mode: ContinuousDeployment
+    tag: beta
+ignore:
+  sha: []
