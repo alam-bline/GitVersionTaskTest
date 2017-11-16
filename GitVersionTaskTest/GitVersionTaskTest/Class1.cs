@@ -8,5 +8,6 @@ namespace GitVersionTaskTest
 {
     public class Class1
     {
+
     }
 }
